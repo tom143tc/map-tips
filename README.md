@@ -114,11 +114,17 @@ These render as static maps with numbered markers.
 text
 
 map-tips/
+
 ├── manifest.json      # Plugin metadata
+
 ├── main.ts           # Main plugin logic
+
 ├── styles.css        # Styling
+
 ├── data.json         # Default settings
+
 └── icons/            # Icon assets
+
 
 ### Building from Source
 
@@ -270,10 +276,15 @@ styled-map
 text
 
 map-tips/
+
 ├── manifest.json      # 插件元数据
+
 ├── main.ts           # 主插件逻辑
+
 ├── styles.css        # 样式文件
+
 ├── data.json         # 默认设置
+
 └── icons/            # 图标资源
 
 ### 从源代码构建
