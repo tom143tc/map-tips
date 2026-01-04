@@ -5,6 +5,5 @@
 	"minAppVersion": "0.15.0",
 	"description": "Interactive map annotation tool for marking locations and creating routes.",
 	"author": "tc",
-	"isDesktopOnly": true,
-	"repo": "tom143tc/map-tips"
+	"isDesktopOnly": true
 }
