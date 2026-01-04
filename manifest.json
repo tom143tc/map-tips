@@ -1,11 +1,7 @@
 {
 	"id": "map-tips",
 	"name": "map-tips",
-	"version": "0.0.1",
-	"minAppVersion": "0.15.0",
-	"description": "地图标记",
+	"description": "Interactive map annotation tool for marking locations and creating routes.",
 	"author": "tc",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
 	"isDesktopOnly": true
 }
