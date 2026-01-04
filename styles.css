@@ -1,0 +1,131 @@
+/* 弹窗核心布局 */
+.modal.map-modal-container {
+    width: 90vw !important;
+    max-width: 1200px !important;
+    height: 85vh !important;
+}
+
+.modal-content.map-modal-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* 控制栏 */
+.map-ctrl {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.map-ctrl input {
+    flex: 1;
+}
+
+/* 地图主容器 - 确保撑满 */
+.map-main-canvas {
+    flex: 1;
+    width: 100%;
+    min-height: 400px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    background: #f0f0f0;
+}
+
+/* 静态快照样式 */
+.map-wrapper {
+    position: relative;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.map-pin-static {
+    position: absolute;
+    background: #740811;
+    color: white;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: bold;
+    border: 2px solid white;
+    transform: translate(-50%, -100%);
+    pointer-events: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* 备注弹窗输入框 */
+.leaflet-popup-content input, 
+.leaflet-popup-content textarea {
+    width: 100%;
+    background: var(--background-primary);
+    color: var(--text-normal);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.map-popup-form button.mod-cta {
+    background-color: var(--interactive-accent);
+    color: var(--text-on-accent);
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.map-popup-form button.mod-cta:hover {
+    background-color: var(--interactive-accent-hover);
+}
+
+.map-popup-buttons button {
+    padding: 4px 12px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/* 移除 Leaflet 弹窗默认的一些 padding 以使布局更紧凑 */
+.leaflet-popup-content {
+    margin: 12px;
+    min-width: 200px;
+}
+
+* 路径点 X 标记样式 */
+.map-route-x-icon {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #cd1f1f;
+    text-shadow: 0 0 3px #2d0e0e; /* 给黑色X加一点白边，防止在深色地图背景下看不清 */
+    pointer-events: auto;
+}
+
+/* 标记弹窗内按钮布局修正 */
+.map-popup-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.map-popup-buttons .right-group {
+    display: flex;
+    gap: 8px;
+}
+
+.map-popup-form input, .map-popup-form textarea {
+    background-color: var(--background-modifier-form-field);
+    border: 1px solid var(--background-modifier-border);
+    color: var(--text-normal);
+}
+
+.map-location-link:hover {
+    text-decoration: underline;
+}

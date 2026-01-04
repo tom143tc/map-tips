@@ -1,0 +1,15 @@
+{
+  "mapSource": "Amap",
+  "iconPath": ".obsidian/plugins/map-tip/icons/default-pin.png",
+  "shadowPath": ".obsidian/plugins/map-tip/icons/shadow.png",
+  "defaultLat": 39.9,
+  "defaultLng": 116.4,
+  "defaultZoom": 14,
+  "tileLayerOSM": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+  "tileLayerAmap": "https://webrd0{s}.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=8&x={x}&y={y}&z={z}",
+  "routeApiUrl": "https://router.project-osrm.org/route/v1/driving/",
+  "searchApiUrl": "https://nominatim.openstreetmap.org/search?format=json&q=",
+  "routeColor": "#075733ff",
+  "routeOpacity": 0.8,
+  "routeWeight": 5
+}
