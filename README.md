@@ -2,7 +2,11 @@
 
 A powerful interactive map annotation plugin for Obsidian, allowing you to mark locations, create routes, and generate static map snapshots directly in your notes.
 
-[https://via.placeholder.com/800x400?text=Map+Tips+Preview](https://via.placeholder.com/800x400?text=Map+Tips+Preview)
+<div align="center">
+  <img src="./assets/demo.gif" alt="Map Tips demo" width="800">
+  <br>
+  <em>Map Tips demo</em>
+</div>
 
 ## ✨ Features
 
@@ -165,6 +169,12 @@ MIT License
 # Map Tips - Obsidian 插件
 
 一个强大的 Obsidian 交互式地图标注插件，允许您在笔记中直接标记位置、创建路线并生成静态地图快照。
+
+<div align="center">
+  <img src="./assets/demo.gif" alt="Map Tips 插件演示" width="800">
+  <br>
+  <em>Map Tips 插件核心功能演示</em>
+</div>
 
 ## ✨ 功能特性
 
